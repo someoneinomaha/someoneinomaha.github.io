@@ -1,0 +1,12 @@
+# Site settings
+title: Jason Bash | Web Developer and Project Manager in Omaha Nebraska
+email: jason@someoneinomaha.com
+description: > # this means to ignore newlines until "baseurl:"
+  Jason Bash is a web developer and project manager living in Omaha, NE. 
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://someoneinomaha.com" # the base hostname & protocol for your site
+twitter_username: someoneinomaha
+github_username:  someoneinomaha
+
+# Build settings
+markdown: kramdown
