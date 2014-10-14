@@ -161,8 +161,25 @@
 /**
  * Page content
  */
+
+.name {
+    font-size:80px; 
+    font-weight:100;
+    font-family: $header-font-family;
+    letter-spacing: $header-letter-spacing;
+}
+
+.lname { 
+  
+}
+
+.fname {
+
+}
+
 .page-content {
     padding: $spacing-unit 0;
+    text-align:center;
 }
 
 .page-heading {
@@ -186,6 +203,12 @@
 .post-link {
     display: block;
     font-size: 24px;
+}
+
+.photo .caption {
+    display:block;
+    color: $grey-color;
+    margin-top: $spacing-unit - 10px;
 }
 
 
