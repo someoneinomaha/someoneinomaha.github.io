@@ -1,0 +1,23 @@
+---
+layout: page
+---
+
+<div id="letters"></div>
+
+
+<script>
+  function getRandomLetter() {
+    var letters = ['d', 'b'];
+    var num = (Math.floor(Math.random() * letters.length));
+    return letters[num];
+  }
+  $(document).ready(function(){
+    var letters = "";
+    for (var i=0; i<72; i++) {
+       letters = letters + " " + getRandomLetter();
+    }
+    $('#letters').append(letters);
+  });
+
+
+</script>
