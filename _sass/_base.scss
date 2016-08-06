@@ -207,3 +207,7 @@ pre {
     text-align:left;
     letter-spacing:20px;
 }
+
+@media print {
+    #instructions { display:none; }
+}
